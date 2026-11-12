@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Aprenda noções de informática e segurança na internet com conteúdo gratuito e quiz interativo.">
+
+    <title>Aprenda com a Tecnologia</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="brand">💡 Aprenda com a Tecnologia</div>
+
+    <nav aria-label="Navegação principal">
+        <a href="#aprenda">Aprenda</a>
+        <a href="#seguranca">Segurança</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#etapas">Etapas do projeto</a>
+        <a href="#projeto">O projeto</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <div>
+        <span class="pill">Tecnologia para todos</span>
+
+        <h1>Descubra o mundo digital com confiança.</h1>
+
+        <p>
+            Aprenda conceitos básicos de informática e veja como se
+            proteger na internet. Conteúdo gratuito, direto e feito
+            para quem está começando.
+        </p>
+
+        <a class="button" href="#aprenda">
+            Começar a aprender ↓
+        </a>
+    </div>
+
+    <aside class="hero-card">
+        <div class="emoji" aria-hidden="true">🧑‍💻</div>
+
+        <h2>Um passo de cada vez</h2>
+
+        <p>
+            Entender a tecnologia ajuda você a estudar, trabalhar
+            e se comunicar com mais autonomia.
+        </p>
+    </aside>
+</section>
+
+<section id="aprenda" class="section alt">
+    <div class="inner">
+        <span class="eyebrow">Noções básicas</span>
+
+        <h2>Conheça as ferramentas digitais</h2>
+
+        <p class="lead">Alguns conceitos úteis para começar.</p>
+
+        <div class="cards">
+            <article class="card">
+                <div class="card-icon">🖥️</div>
+                <h3>Hardware</h3>
+                <p>
+                    É a parte física do computador: monitor, teclado,
+                    mouse, memória e outros componentes.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">⚙️</div>
+                <h3>Software</h3>
+                <p>
+                    São os programas e aplicativos que usamos,
+                    como navegador, editor de texto e jogos.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🌐</div>
+                <h3>Internet</h3>
+                <p>
+                    Uma rede mundial que conecta dispositivos e
+                    permite acessar páginas, serviços e informações.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="seguranca" class="section">
+    <div class="inner">
+        <span class="eyebrow">Navegue com cuidado</span>
+
+        <h2>Proteja-se na internet</h2>
+
+        <p class="lead">
+            Hábitos simples ajudam a manter suas contas e
+            informações mais seguras.
+        </p>
+
+        <div class="cards">
+            <article class="card">
+                <div class="card-icon">🔐</div>
+                <h3>Use senhas fortes</h3>
+                <p>
+                    Crie senhas longas, diferentes para cada serviço.
+                    Um gerenciador pode ajudar a guardá-las.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🔎</div>
+                <h3>Confira antes de clicar</h3>
+                <p>
+                    Desconfie de mensagens urgentes, links inesperados
+                    e ofertas boas demais para ser verdade.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🛡️</div>
+                <h3>Cuide dos seus dados</h3>
+                <p>
+                    Compartilhe apenas o necessário. Verifique quem
+                    pediu a informação e para qual finalidade.
+                </p>
+            </article>
+        </div>
+
+        <div class="tip">
+            <strong>Dica:</strong> antes de informar uma senha,
+            confira o endereço do site e se a conexão é segura.
+        </div>
+    </div>
+</section>
+
+<section id="quiz" class="section alt">
+    <div class="inner">
+        <span class="eyebrow">Pratique o que aprendeu</span>
+
+        <h2>Quiz rápido</h2>
+
+        <p class="lead">
+            Escolha uma resposta em cada pergunta e confira seu resultado.
+        </p>
+
+        <form class="quiz" id="quizForm">
+
+            <fieldset class="question">
+                <legend>1. O que é hardware?</legend>
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q1" value="a">
+                        A parte física do computador
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q1" value="b">
+                        Um site da internet
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q1" value="c">
+                        Uma senha
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset class="question">
+                <legend>2. Qual atitude ajuda a proteger suas contas?</legend>
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q2" value="a">
+                        Usar a mesma senha em todos os sites
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q2" value="b">
+                        Criar senhas fortes e diferentes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q2" value="c">
+                        Enviar a senha por mensagem
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset class="question">
+                <legend>3. O que fazer ao receber um link inesperado?</legend>
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q3" value="a">
+                        Clicar imediatamente
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q3" value="b">
+                        Compartilhar com todos
+                    </label>
+
+                    <label>
+                        <input type="radio" name="q3" value="c">
+                        Conferir a origem antes de abrir
+                    </label>
+                </div>
+            </fieldset>
+
+            <button class="button" type="submit">
+                Ver meu resultado
+            </button>
+
+            <button class="button reset-button" type="reset">
+                Tentar de novo
+            </button>
+
+            <p id="result" class="result" aria-live="polite"></p>
+
+            <p id="feedback" class="feedback" aria-live="polite"></p>
+
+        </form>
+    </div>
+</section>
+
+<section id="etapas" class="section alt">
+    <div class="inner">
+        <span class="eyebrow">Como o projeto foi planejado</span>
+
+        <h2>Etapas de desenvolvimento</h2>
+
+        <p class="lead">
+            O trabalho foi organizado em fases para transformar
+            a pesquisa em uma aplicação educativa funcional.
+        </p>
+
+        <div class="steps">
+
+            <article class="step">
+                <div>
+                    <h3>Definição do tema e dos objetivos</h3>
+                    <p>
+                        Apresentar noções básicas de tecnologia e segurança
+                        digital, apoiando a inclusão digital e o ODS 4.
+                    </p>
+                </div>
+            </article>
+
+            <article class="step">
+                <div>
+                    <h3>Pesquisa sobre informática e segurança</h3>
+                    <p>
+                        Reunir conceitos introdutórios e boas práticas
+                        sobre hardware, software, internet, senhas
+                        e dados pessoais.
+                    </p>
+                </div>
+            </article>
+
+            <article class="step">
+                <div>
+                    <h3>Planejamento dos conteúdos</h3>
+                    <p>
+                        Organizar os assuntos em explicações breves,
+                        dicas práticas e perguntas de revisão.
+                    </p>
+                </div>
+            </article>
+
+            <article class="step">
+                <div>
+                    <h3>Estrutura da página com HTML</h3>
+                    <p>
+                        Criar as seções de apresentação, aprendizagem,
+                        segurança, quiz e contextualização do projeto.
+                    </p>
+                </div>
+            </article>
+
+            <article class="step">
+                <div>
+                    <h3>Visual com CSS</h3>
+                    <p>
+                        Aplicar cores, tipografia, cartões e adaptação
+                        para telas menores, priorizando leitura simples.
+                    </p>
+                </div>
+            </article>
+
+            <article class="step">
+                <div>
+                    <h3>Interatividade com JavaScript</h3>
+                    <p>
+                        Programar o quiz para validar respostas,
+                        calcular a pontuação e apresentar retorno
+                        ao participante.
+                    </p>
+                </div>
+            </article>
+
+            <article class="step">
+                <div>
+                    <h3>Testes e correções</h3>
+                    <p>
+                        Conferir navegação, seleção das respostas,
+                        pontuação e apresentação visual; corrigir
+                        problemas encontrados.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="projeto" class="section">
+    <div class="inner">
+        <span class="eyebrow">Aprendizagem e inclusão</span>
+
+        <h2>Tecnologia também é educação</h2>
+
+        <p class="lead">
+            Esta página compartilha conhecimentos digitais básicos
+            de forma gratuita e acessível, incentivando a autonomia
+            e a aprendizagem contínua.
+        </p>
+
+        <div class="ods">
+            <div class="ods-icon" aria-hidden="true">🎓</div>
+
+            <div>
+                <strong>ODS 4 – Educação de Qualidade</strong>
+
+                <p>
+                    Contribuir para uma educação inclusiva e
+                    oportunidades de aprendizagem para todos,
+                    conforme a Agenda 2030 da ONU.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <p><strong>Aprenda com a Tecnologia</strong></p>
+    <p>Conteúdo educativo gratuito • ODS 4</p>
+</footer>
+
+</body>
+</html>
